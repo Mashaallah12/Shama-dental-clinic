@@ -1,3 +1,3 @@
-export default function AboutDoctor() {
+export default function Aboutdoctor() {
   return null;
 }
