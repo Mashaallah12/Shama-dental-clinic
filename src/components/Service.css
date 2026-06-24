@@ -1,0 +1,38 @@
+.service-section {
+  background: #f8fbff;
+  padding: 100px 8%;
+}
+
+.service-section h1 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 60px;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card h2 {
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.7;
+}

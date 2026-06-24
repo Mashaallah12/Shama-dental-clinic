@@ -1,15 +1,36 @@
+import "./ClinicIntro.css";
+import heroImage from "../assets/hero.png";
+
 function ClinicIntro() {
   return (
-    <section>
-      <h1>Shama Dental Clinic</h1>
+    <section className="hero-section">
+      <div className="hero-content">
+        <h1>Healthy Smile, Happy Life</h1>
 
-      <p>
-        Healthy Smile, Happy Life
-      </p>
+        <h2>Welcome to Shama Dental Clinic</h2>
 
-      <button>
-        Book Appointment
-      </button>
+        <p>
+          Providing quality dental care with modern technology and a
+          compassionate approach. We help you achieve a healthy and
+          confident smile.
+        </p>
+
+        <ul className="hero-list">
+          <li>✔ Experienced Dentists</li>
+          <li>✔ Modern Equipment</li>
+          <li>✔ Emergency Dental Care</li>
+          <li>✔ Affordable Treatments</li>
+        </ul>
+
+        <div className="hero-buttons">
+          <button className="book-btn">Book Appointment</button>
+          <button className="call-btn">Call Now</button>
+        </div>
+      </div>
+
+      <div className="hero-image">
+        <img src={heroImage} alt="Dental Clinic" />
+      </div>
     </section>
   );
 }

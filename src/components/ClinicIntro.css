@@ -1,0 +1,88 @@
+.hero-section {
+  background: linear-gradient(to right, #f8fbff, #e3f2fd);
+  padding: 80px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-content {
+  flex: 1;
+  text-align: left;
+}
+
+.hero-content h1 {
+  color: #0077b6;
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  color: #333333;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  color: #666666;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.hero-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.hero-list li {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #333333;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.book-btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book-btn:hover {
+  background-color: #005b96;
+}
+
+.call-btn {
+  background-color: white;
+  color: #0077b6;
+  border: 2px solid #0077b6;
+  padding: 14px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.call-btn:hover {
+  background-color: #0077b6;
+  color: white;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+}
