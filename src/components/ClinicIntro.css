@@ -77,12 +77,12 @@
 }
 
 .hero-image {
-  flex: 1;
+  flex: 2;
   text-align: center;
 }
 
 .hero-image img {
   width: 100%;
-  max-width: 500px;
+  max-width: 900px;
   border-radius: 20px;
 }

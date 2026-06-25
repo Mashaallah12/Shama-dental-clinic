@@ -13,7 +13,7 @@ function Testimonials() {
             alt="Sarah Johnson"
           />
 
-          <h2>Shakra Nazli</h2>
+          <h2>Sarah Johnson</h2>
 
           <h3>⭐⭐⭐⭐⭐</h3>
 
@@ -29,7 +29,7 @@ function Testimonials() {
             alt="Michael Smith"
           />
 
-          <h2>Hammad Sadri</h2>
+          <h2>Michael Smith</h2>
 
           <h3>⭐⭐⭐⭐⭐</h3>
 
@@ -45,7 +45,7 @@ function Testimonials() {
             alt="Emily Davis"
           />
 
-          <h2>Rana Saif</h2>
+          <h2>Emily Davis</h2>
 
           <h3>⭐⭐⭐⭐⭐</h3>
 

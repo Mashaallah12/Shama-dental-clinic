@@ -1,5 +1,5 @@
 import "./ClinicIntro.css";
-import heroImage from "../assets/hero.png";
+import heroImage from "../assets/img.png";
 
 function ClinicIntro() {
   return (
@@ -29,7 +29,10 @@ function ClinicIntro() {
       </div>
 
       <div className="hero-image">
-        <img src={heroImage} alt="Dental Clinic" />
+        <img
+          src={heroImage}
+          alt="Lady dentist treating patient"
+        />
       </div>
     </section>
   );
